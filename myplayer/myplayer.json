@@ -1,0 +1,30 @@
+{
+  "$schema": "plugin.schema.json",
+  "info": {
+    "title": "myplayer Plugin",
+    "callsign": "myplayer",
+    "locator": "libWPEFrameworkmyplayer.so",
+    "status": "production",
+    "description": [
+      "The myplayer plugin provides functionality for streaming."
+    ],
+    "version": "1.0"
+  },
+  "configuration": {
+    "type": "object",
+    "properties": {
+      "configuration": {
+        "type": "object",
+        "required": [],
+        "properties": {
+          "storage": {
+            "type": "string",
+            "description": "Filename of DataModel file (default: DataModel.json)"
+          }
+        }
+      }
+    }
+  }
+}
+
+
